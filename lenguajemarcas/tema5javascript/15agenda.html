@@ -6,21 +6,18 @@
  	<meta charset="utf-8">
  </head>
  <body>
- <p>
+ <p id="ListaContactoNombre">
  	pulsa el boton para crear el contacto
  </p>
- <button onclick="AñadirContacto();">Añadir contacto</button>
-<input type="text" id="Nombre">
-    <input type="text" id="Telefono">
-    <br>
- <button onclick="CrearContacto();">crear contacto</button>
-    <input type="text" id="Nombre">
-    <input type="text" id="Telefono">
-    <br>
-    <button onclick="ModificarContacto();">
-    	MOdificar
-    </button>
-
+ Nombre<input type="text" id="nombre">
+ Telefono <input type="text" id="telefono">
+  Direccion <input type="text" id="direccion">
+  <br><br>
+ <button onclick="InsertarContactoLista();">insertar contacto</button>
+ <button onclick="CambiarContact();">cambiar</button>
+    <button onclick="BuscarContacto();">Buscar</button>
+        <button onclick="BuscarContacto();">Borrar</button>
+ 
  <p id="Resultado">
  	LOs datod
  </p>
