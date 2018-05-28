@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> calculadora </title>
+	<meta charset="utf-8">
+	<script type="text/javascript" src ="script/operaciones.js"></script>
+	<style type="text/css">
+		#Resultado{
+			color: red;
+		
+		}
+	</style>
+	<style type="text/css">
+		p{
+			color: red;
+				background-color: yellow;
+
+		}
+	</style>
+</head>
+<body>
+<p>tuiene un boton para calculadora</p>
+<p>dato 1:</p>
+<input type="text" id="Operando1">
+<p>dato 2:</p>
+<input type="text" id="Operando2">
+<p>
+
+	<button onclick="Sumar();">+</button>
+	
+	<button onclick="Restar();">-</button>
+	
+	<button onclick="Multiplicar();">*</button>
+	
+	<button onclick="Dividir();">/</button>
+</p>
+
+<p id="Resultado">
+	el resultado es:
+</p>
+</body>
+</html>
